@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a428c6;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.keys button {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.keys button:active {
+    background: #ddd;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metronome, .recording-controls {
+    margin-bottom: 10px;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}

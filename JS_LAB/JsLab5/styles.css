@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+#game-area {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #97939f;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+#ball {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+#hole {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#records {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#records-list {
+    list-style: none;
+    padding: 0;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotePocket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notatnik</h1>
+        <form id="noteForm">
+            <input type="text" id="noteTitle" placeholder="Title" required>
+            <textarea id="noteContent" placeholder="Content" required></textarea>
+            <input type="color" id="noteColor" value="#ffffff">
+            <input type="text" id="noteTags" placeholder="Tags (comma separated)">
+            <label for="notePin">Pin to top</label>
+            <input type="checkbox" id="notePin">
+            <button type="submit">Add Note</button>
+        </form>
+        <input type="text" id="searchBar" placeholder="Search notes...">
+        <div id="notesContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

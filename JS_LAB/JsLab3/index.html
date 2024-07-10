@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumkit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="keys">
+            <button data-key="65">A</button>
+            <button data-key="83">S</button>
+            <button data-key="68">D</button>
+            <button data-key="70">F</button>
+            <button data-key="71">G</button>
+            <button data-key="72">H</button>
+            <button data-key="74">J</button>
+            <button data-key="75">K</button>
+            <button data-key="76">L</button>
+        </div>
+        <div class="controls">
+            <div class="metronome">
+                <label for="bpm">BPM:</label>
+                <input type="number" id="bpm" value="120" min="40" max="240">
+                <button id="toggle-metronome">Metronome On/Off</button>
+            </div>
+            <div class="recording-controls">
+                <button id="record1">Record Channel 1</button>
+                <button id="record2">Record Channel 2</button>
+                <button id="record3">Record Channel 3</button>
+                <button id="record4">Record Channel 4</button>
+                <button id="play1">Play Channel 1</button>
+                <button id="play2">Play Channel 2</button>
+                <button id="play3">Play Channel 3</button>
+                <button id="play4">Play Channel 4</button>
+                <button id="playAll">Play All Channels</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
